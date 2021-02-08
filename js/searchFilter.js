@@ -47,7 +47,7 @@ let letter = input.toLowerCase();
 //images of the photos that do not contain the letters.
 
   for (let i = 0; i < titles.length; i++){
-    if (titles[i].includes(letter) === false){
+    if (titles[i].includes(letter.slice(-1)) === false){
     document.getElementById(i).style="display:none";
     }//end if
   }//end for

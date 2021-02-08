@@ -18,3 +18,23 @@
  *   const search = new Filter('search', 'data-caption');
  */
 
+ //Here is the function
+
+function myFunction() {
+
+  //declare all variables
+let input = document.getElementById("search").value;
+let letter = input.toLowerCase();
+if (letter.includes('b')){
+  document.getElementById("lake").style= "display:none";
+  document.getElementById("fall").style= "display:none";
+  document.getElementById("plantation").style= "display:none";
+  document.getElementById("dunes").style= "display:none";
+  document.getElementById("countryside").style= "display:none";
+  document.getElementById("sunset").style= "display:none";
+}
+if (letter.includes('j')){
+  alert("yes! The letter is j!");
+}
+
+ }

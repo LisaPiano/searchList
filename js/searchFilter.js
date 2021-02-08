@@ -38,17 +38,124 @@ function myFunction() {
   ];
 
   //declare variable of input
-let input = document.getElementById("search").value;
+var input = document.getElementById("search").value;
+var photo = document.getElementsByClassName("photo");
+
 
 //be sure it doesn't matter uppercase or lowercase
-let letter = input.toLowerCase();
+var letter = input.toLowerCase();
 
 //loop that checks whether or not the letter exists in the string of the array. Then, ceases displaying the 
 //images of the photos that do not contain the letters.
 
   for (let i = 0; i < titles.length; i++){
     if (titles[i].includes(letter.slice(-1)) === false){
-    document.getElementById(i).style="display:none";
+    document.getElementById(i).style="display: none";
     }//end if
-  }//end for
-}//end function
+
+    if (letter.includes("hay")){
+
+      for(let num = 0; num < titles.length; num++){
+      document.getElementById(num).style="display: none";
+      document.getElementById("0").style="display: block";
+      }//end for
+      }//end if
+
+      if (letter.includes("lake")){
+
+        for(let num = 0; num < titles.length; num++){
+        document.getElementById(num).style="display: none";
+        document.getElementById("1").style="display: block";
+        }//end for
+        }//end if
+
+        if (letter.includes("hiked") || letter.includes("mountain")){
+
+          for(let num = 0; num < titles.length; num++){
+          document.getElementById(num).style="display: none";
+          document.getElementById("2").style="display: block";
+          }//end for
+          }//end if
+
+          if (letter.includes("iceberg")){
+
+            for(let num = 0; num < titles.length; num++){
+            document.getElementById(num).style="display: none";
+            document.getElementById("3").style="display: block";
+            }//end for
+            }//end if
+
+            if (letter.includes("cliffs") || letter.includes("hot") || letter.includes("desert")){
+
+              for(let num = 0; num < titles.length; num++){
+              document.getElementById(num).style="display: none";
+              document.getElementById("4").style="display: block";
+              }//end for
+              }//end if
+
+              if (letter.includes("fall") || letter.includes("leaves") || letter.includes("trees")){
+
+                for(let num = 0; num < titles.length; num++){
+                document.getElementById(num).style="display: none";
+                document.getElementById("5").style="display: block";
+                }//end for
+                }//end if
+
+                if (letter.includes("drove") || letter.includes("plantation") || letter.includes("green")){
+
+                  for(let num = 0; num < titles.length; num++){
+                  document.getElementById(num).style="display: none";
+                  document.getElementById("6").style="display: block";
+                  }//end for
+                  }//end if
+
+                  if (letter.includes("summer") || letter.includes("oregon") || letter.includes("dunes")){
+
+                    for(let num = 0; num < titles.length; num++){
+                    document.getElementById(num).style="display: none";
+                    document.getElementById("7").style="display: block";
+                    }//end for
+                    }//end if
+
+                    if (letter.includes("stroll") || letter.includes("countryside") || letter.includes("lane")){
+
+                      for(let num = 0; num < titles.length; num++){
+                      document.getElementById(num).style="display: none";
+                      document.getElementById("8").style="display: block";
+                      }//end for
+                      }//end if
+
+                      if (letter.includes("sunset") || letter.includes("sky") || letter.includes("orange")){
+
+                        for(let num = 0; num < titles.length; num++){
+                        document.getElementById(num).style="display: none";
+                        document.getElementById("9").style="display: block";
+                        }//end for
+                        }//end if
+
+                        if (letter.includes("tour") || letter.includes("cave") || letter.includes("breathtaking")){
+
+                          for(let num = 0; num < titles.length; num++){
+                          document.getElementById(num).style="display: none";
+                          document.getElementById("10").style="display: block";
+                          }//end for
+                          }//end if
+
+                          if (letter.includes("bluebells") || letter.includes("meadow") || letter.includes("fog")){
+
+                            for(let num = 0; num < titles.length; num++){
+                            document.getElementById(num).style="display: none";
+                            document.getElementById("11").style="display: block";
+                            }//end for
+                            }//end if
+
+                         
+    
+  
+             
+                
+
+              
+    
+    }//end outer for
+  }// end function

@@ -53,7 +53,7 @@ var letter = input.toLowerCase();
     document.getElementById(i).style="display: none";
     }//end if
 
-    if (letter.includes("hay")){
+    if (letter.includes("hay") || letter.includes("bales") || letter.includes("straw") || letter.includes("fields")){
 
       for(let num = 0; num < titles.length; num++){
       document.getElementById(num).style="display: none";
@@ -61,7 +61,7 @@ var letter = input.toLowerCase();
       }//end for
       }//end if
 
-      if (letter.includes("lake")){
+      if (letter.includes("lake") || letter.includes("calm") || letter.includes("snow")){
 
         for(let num = 0; num < titles.length; num++){
         document.getElementById(num).style="display: none";
@@ -69,7 +69,7 @@ var letter = input.toLowerCase();
         }//end for
         }//end if
 
-        if (letter.includes("hiked") || letter.includes("mountain")){
+        if (letter.includes("hiked")){
 
           for(let num = 0; num < titles.length; num++){
           document.getElementById(num).style="display: none";
@@ -77,7 +77,7 @@ var letter = input.toLowerCase();
           }//end for
           }//end if
 
-          if (letter.includes("iceberg")){
+          if (letter.includes("ice")){
 
             for(let num = 0; num < titles.length; num++){
             document.getElementById(num).style="display: none";

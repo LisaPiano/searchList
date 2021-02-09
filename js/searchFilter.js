@@ -61,7 +61,7 @@ var letter = input.toLowerCase();
       }//end for
       }//end if
 
-      if (letter.includes("lake") || letter.includes("calm") || letter.includes("snow")){
+      if (letter.includes("lake") || letter.includes("calm")){
 
         for(let num = 0; num < titles.length; num++){
         document.getElementById(num).style="display: none";
@@ -69,7 +69,7 @@ var letter = input.toLowerCase();
         }//end for
         }//end if
 
-        if (letter.includes("hiked")){
+        if (letter.includes("hiked") || letter.includes("picture")){
 
           for(let num = 0; num < titles.length; num++){
           document.getElementById(num).style="display: none";
@@ -77,7 +77,7 @@ var letter = input.toLowerCase();
           }//end for
           }//end if
 
-          if (letter.includes("ice")){
+          if (letter.includes("ice") || letter.includes("amazing") || letter.includes("close")  || letter.includes("cold")){
 
             for(let num = 0; num < titles.length; num++){
             document.getElementById(num).style="display: none";
@@ -85,7 +85,7 @@ var letter = input.toLowerCase();
             }//end for
             }//end if
 
-            if (letter.includes("cliffs") || letter.includes("hot") || letter.includes("desert")){
+            if (letter.includes("cliffs") || letter.includes("hot") || letter.includes("desert") || letter.includes("red")){
 
               for(let num = 0; num < titles.length; num++){
               document.getElementById(num).style="display: none";
@@ -93,7 +93,7 @@ var letter = input.toLowerCase();
               }//end for
               }//end if
 
-              if (letter.includes("fall") || letter.includes("leaves") || letter.includes("trees")){
+              if (letter.includes("fall") || letter.includes("coming") || letter.includes("change") || letter.includes("color")){
 
                 for(let num = 0; num < titles.length; num++){
                 document.getElementById(num).style="display: none";
@@ -101,7 +101,7 @@ var letter = input.toLowerCase();
                 }//end for
                 }//end if
 
-                if (letter.includes("drove") || letter.includes("plantation") || letter.includes("green")){
+                if (letter.includes("drove") || letter.includes("plantation") || letter.includes("everything")){
 
                   for(let num = 0; num < titles.length; num++){
                   document.getElementById(num).style="display: none";
@@ -109,7 +109,7 @@ var letter = input.toLowerCase();
                   }//end for
                   }//end if
 
-                  if (letter.includes("summer") || letter.includes("oregon") || letter.includes("dunes")){
+                  if (letter.includes("summer") || letter.includes("oregon") || letter.includes("dunes") || letter.includes("sandy")){
 
                     for(let num = 0; num < titles.length; num++){
                     document.getElementById(num).style="display: none";
@@ -117,7 +117,7 @@ var letter = input.toLowerCase();
                     }//end for
                     }//end if
 
-                    if (letter.includes("stroll") || letter.includes("countryside") || letter.includes("lane")){
+                    if (letter.includes("stroll") || letter.includes("countryside") || letter.includes("lane") || letter.includes("quiet")){
 
                       for(let num = 0; num < titles.length; num++){
                       document.getElementById(num).style="display: none";
@@ -125,7 +125,7 @@ var letter = input.toLowerCase();
                       }//end for
                       }//end if
 
-                      if (letter.includes("sunset") || letter.includes("sky") || letter.includes("orange")){
+                      if (letter.includes("sunset") || letter.includes("lovely") || letter.includes("orange") || letter.includes("shade")){
 
                         for(let num = 0; num < titles.length; num++){
                         document.getElementById(num).style="display: none";
@@ -133,7 +133,7 @@ var letter = input.toLowerCase();
                         }//end for
                         }//end if
 
-                        if (letter.includes("tour") || letter.includes("cave") || letter.includes("breathtaking")){
+                        if (letter.includes("tour") || letter.includes("cave") || letter.includes("breathtaking")  || letter.includes("landscape")){
 
                           for(let num = 0; num < titles.length; num++){
                           document.getElementById(num).style="display: none";
@@ -149,13 +149,5 @@ var letter = input.toLowerCase();
                             }//end for
                             }//end if
 
-                         
-    
-  
-             
-                
-
-              
-    
     }//end outer for
   }// end function

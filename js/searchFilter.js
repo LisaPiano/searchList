@@ -53,6 +53,11 @@ var letter = input.toLowerCase();
     document.getElementById(i).style="display: none";
     }//end if
 
+    //I needed to hardcode some words because only using letters would often not
+    //reduce the remaining choices to one picture. Perhaps I didn't try hard enough, but
+    //this seemed to speed up the search process in any case. It may not be
+    //appropriate...if so, I'm sorry!
+
     if (letter.includes("hay") || letter.includes("bales") || letter.includes("straw") || letter.includes("fields")){
 
       for(let num = 0; num < titles.length; num++){
